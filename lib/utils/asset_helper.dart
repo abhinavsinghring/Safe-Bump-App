@@ -13,7 +13,7 @@ class AssetsHelper {
   static const String swimming = 'assets/images/exercise/swimming.jpg';
   static const String yoga = 'assets/images/exercise/yoga.jpg';
   static const String strength_training =
-      'assets/images/exercise/strength-training.jpg';
+      'assets/images/exercise/strength-training.jpg'; 
   static const String stretching = 'assets/images/exercise/stretching.jpg';
   static const String kegels = 'assets/images/exercise/kegels.jpg';
 
@@ -66,7 +66,8 @@ class AssetsHelper {
       'https://maps.googleapis.com/maps/api/place/photo?';
   static const String risk_detector_api_base_url =
       'https://safe-bump-backend.onrender.com/api/predict_health?';
-  //   static const String place_api_key = "AIzaSyBtygbeWna36e0chLf0XRZjXINgjen8zAw";
+  //   static const String place_api_key = {key here};
+  // TODO: Paste "AIzaSyBtygbeWna36e0chLf0XRZjXINgjen8zAw" this above
 
   static const List<Map<String, dynamic>> articleData = [
     {
